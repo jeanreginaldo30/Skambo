@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "poppins";
+    }
+
+    main{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #E2CE1A;
+       
+    }
+
+    #container{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        background: #FEFAA1;
+        width: 944px;
+        height: 555px;
+
+
+    }
+
+
+#esquerdo{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 23;
+    background: #36320A;
+    width: ;
+    height: 555px;
+}
+
+#esquerdo > h1{
+
+    font: size 80;
+}
+
+
+#esquerdo > h2 { 
+
+    font-size: Medium 19;
+    
+}
+
+
+#direito{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 944px;
+    height: 555px;
+
+}
+
+#direito> h1{
+
+    font-size: x-large 32;
+}
+
+
+#direito> h2 { 
+
+    font-size: medium 19;
+}
+
+.textfield{
+    margin-bottom: 24px;
+    font-size: 23;
+    font-family: "poppins";
+}
+
+input{
+
+    
+    height: 60px;
+    width: 480px;
+    border: none;
+    border-radius: 16px;
+    padding: 20px;
+    background: #E2CE1A;
+    color: #000000;
+    outline: none;
+    font-size: 12pt;
+    border: 2px solid transparent;
+
+}
+
+
+
+.img{
+    max-height:157px;
+    min-height:91px;
+}
+
+.btn-cadastrar{
+
+  
+    background: #000000;
+    width: 232px;
+    height: 70px;
+    font-weight: 700;
+    font-size: 23px;
+    border-radius: 25px;
+    font-weight: 23px;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+   
+}
+
+.btn-entrar{
+
+    
+    background:#36320A;
+    color: #FFFFFF;
+    font-size: 23px;
+    font-weight: 700;
+    width: 232px;
+    margin-top: 30px;
+    height: 70px;
+    border-radius: 25px;
+    border-color: #ffffff;
+    cursor: pointer;
+  
+}
